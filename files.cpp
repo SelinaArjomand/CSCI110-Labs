@@ -40,8 +40,8 @@ int main()
 		
 	getPints(pints, hours);
 	cout << "hours: " << hours << endl;
-    cout << "first value: " << pints[0] << endl;
-    cout << "last value:  " << pints[hours - 1] << endl;
+    	cout << "first value: " << pints[0] << endl;
+    	cout << "last value:  " << pints[hours - 1] << endl;
 	avePints = getAverage(pints, hours);
 	highPints = getHigh(pints, hours);
 	lowPints = getLow(pints, hours);
